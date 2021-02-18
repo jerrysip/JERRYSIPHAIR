@@ -1,6 +1,6 @@
 import React from "react";
 
-import "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/fashion.css";
+import "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/portfolio.css";
 
 const Fashion = (props) => {
   return (
@@ -10,14 +10,18 @@ const Fashion = (props) => {
       </div>
       <div className="card-body text-dark">
         <h4 className="card-title">{props.title}</h4>
-        <p className="card-text text-secondary">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-          reprehenderit dolorem animi, dolore illum, possimus labore magnam
-          tenetur nemo eos iste incidunt sint ipsum at, deleniti ut tempore
-          nihil sit?
+        <p className="card-text text-dark mb-0">
+{props.lead}
         </p>
-        <a href="#" className="btn btn-outline-success">
-          Go Anywhere
+        <p className="card-text text-dark mb-0">
+{props.description}
+        </p>
+        <p className="card-text text-dark">
+{props.location}
+        </p>
+
+        <a href="#" className="btn btn-outline-dark">
+          More...
         </a>
       </div>
     </div>

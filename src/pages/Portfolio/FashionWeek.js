@@ -9,41 +9,76 @@ import img6 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/fashionweek/l
 import img7 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/fashionweek/chinaday5.jpg";
 import img8 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/fashionweek/IMG_6660.JPG";
 import img9 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/fashionweek/Ralph-Lauren_9_bd_ale_0079.jpg";
+import Hero from '/Users/mac/Desktop/jerrysiphair-react/src/pages/hero/Hero.js'
 
 class FashionWeek extends Component {
   render() {
     return (
+      <>
+      <Hero />
+      <div className="fashion text-center mt-5 pt-5"></div>
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
-          <div className="col-md-4">
-            <FashionUI imgsrc={img1} title="Valentino S/S 2019" />
+          <div className="col-md-4 ">
+            <FashionUI 
+            imgsrc={img1} 
+            title="Valentino S/S 2019" 
+            description="Location: Paris, France"
+            lead="Lead: Guido Palau"/>
           </div>
           <div className="col-md-4">
-            <FashionUI imgsrc={img2} title="Ralph Lauren S/S 2018" />
+            <FashionUI 
+            imgsrc={img2} 
+            title="Ralph Lauren S/S 2018" 
+            lead="Lead: Guido Palau"
+            description="Location: New York City"/>
           </div>
           <div className="col-md-4">
-            <FashionUI imgsrc={img3} title="Miu Miu S/S 2019" />
+            <FashionUI 
+            imgsrc={img3} 
+            title="Miu Miu S/S 2019" 
+            lead="Lead: Guido Palau"
+            description="Location: Paris, France"/>
           </div>
           <div className="col-md-4">
-            <FashionUI imgsrc={img4} title="Yeezy Season 4" />
+            <FashionUI 
+            imgsrc={img4} 
+            title="Yeezy Season 4" 
+            lead="Lead: Guido Palau"
+            description="Location: New York City"/>
           </div>
           <div className="col-md-4">
-            <FashionUI imgsrc={img5} title="Lela Rose S/S 2020" />
+            <FashionUI 
+            imgsrc={img5} 
+            title="Lela Rose S/S 2020" 
+            lead="Lead: Gio Vaccari"
+            description="Location: New York City"/>
           </div>
           <div className="col-md-4">
-            <FashionUI imgsrc={img6} title="Leisure Projects S/S 2018" />
+            <FashionUI 
+            imgsrc={img6} 
+            title="Leisure Projects S/S 2018"
+            lead="Lead: Gong Jira" 
+            description="Location: Bangkok, Thailand"/>
           </div>
           <div className="col-md-4">
-            <FashionUI imgsrc={img7} title="China Day S/S 2019" />
+            <FashionUI 
+            imgsrc={img7} 
+            title="China Day S/S 2019" 
+            lead="Lead: Shingo"
+            description="Location: New York City"/>
           </div>
+ 
           <div className="col-md-4">
-            <FashionUI imgsrc={img8} title="Miu Miu S/S 2019" />
-          </div>
-          <div className="col-md-4">
-            <FashionUI imgsrc={img9} title="Ralph Lauren 50th Anniversary" />
+            <FashionUI 
+            imgsrc={img9} 
+            title="Ralph Lauren 50th Anniversary" 
+            lead="Lead: Guido Palau"
+            description="Location: New York City"/>
           </div>
         </div>
       </div>
+      </>
     );
   }
 }

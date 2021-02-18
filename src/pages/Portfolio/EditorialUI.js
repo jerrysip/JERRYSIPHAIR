@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/editorial.css'
+import '/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/portfolio.css'
 
 const Card = props => {
     return(
@@ -13,7 +13,9 @@ const Card = props => {
                 <p className="card-text text-secondary">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id reprehenderit dolorem animi, dolore illum, possimus labore magnam tenetur nemo eos iste incidunt sint ipsum at, deleniti ut tempore nihil sit?
                 </p>
-                <a href="#" className="btn btn-outline-success">Go Anywhere</a>
+                <a href="#" className="btn btn-outline-dark">
+          More...
+        </a>
             </div>
         </div>
 

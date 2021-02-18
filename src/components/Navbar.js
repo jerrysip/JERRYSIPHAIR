@@ -7,14 +7,15 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
+    <div className="text">
       <ReactBootStrap.Navbar collapseOnSelect className="logo" expand="xl">
         <ReactBootStrap.Navbar.Brand href="#home" className="jerry">
-          jerrysipHAIR
+         <Link to='/home'> jerrysipHAIR</Link>
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="portfolio mr-auto">
+
             <ReactBootStrap.Nav.Link to="/portfolio">
               <NavDropdown title="Portfolio" id="nav-dropdown">
                 <NavDropdown.Item eventKey="4.1">
