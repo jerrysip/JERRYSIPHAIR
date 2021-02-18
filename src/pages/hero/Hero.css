@@ -1,0 +1,9 @@
+.video {
+    align-items: center;
+}
+
+.hero {
+    align-items: center;
+    display: cover;
+    justify-content: center;
+}

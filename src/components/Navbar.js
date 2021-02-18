@@ -1,0 +1,51 @@
+import React from "react";
+import * as ReactBootStrap from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { NavDropdown } from "react-bootstrap";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
+
+function Navbar() {
+  return (
+    <div>
+      <ReactBootStrap.Navbar collapseOnSelect className="logo" expand="xl">
+        <ReactBootStrap.Navbar.Brand href="#home" className="jerry">
+          jerrysipHAIR
+        </ReactBootStrap.Navbar.Brand>
+        <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+          <ReactBootStrap.Nav className="portfolio mr-auto">
+            <ReactBootStrap.Nav.Link to="/portfolio">
+              <NavDropdown title="Portfolio" id="nav-dropdown">
+                <NavDropdown.Item eventKey="4.1">
+                  <Link to="/bridal">Bridal</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item eventKey="4.2">
+                  <Link to="/editorial">Editorial</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.3">
+                  <Link to="/fashion-week">Fashion Week</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.3">
+                  <Link to="/mens">Mens</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.3">
+                  <Link to="/press">Press</Link>
+                </NavDropdown.Item>
+              </NavDropdown>
+            </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link className="contact" to="/contact">
+              <Link to="/contact">Contact</Link>
+            </ReactBootStrap.Nav.Link>
+            <ReactBootStrap.Nav.Link className="about" to="/about">
+              <Link to="/about">About</Link>
+            </ReactBootStrap.Nav.Link>
+          </ReactBootStrap.Nav>
+        </ReactBootStrap.Navbar.Collapse>
+      </ReactBootStrap.Navbar>
+</div>
+  );
+}
+
+export default Navbar;

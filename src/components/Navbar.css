@@ -1,0 +1,15 @@
+.logo {
+    font-family: 'Bebas Neue', cursive;
+
+    
+}
+
+.jerry {
+    font-size: 3rem;
+}
+
+.contact, .about {
+    position: relative;
+    top: .5rem;
+}
+
