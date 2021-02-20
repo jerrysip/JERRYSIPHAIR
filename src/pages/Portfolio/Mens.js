@@ -36,7 +36,8 @@ class Mens extends Component {
             imgsrc={img3} 
             title="Linder S/S 2018"
             lead="Lead: Cameron Raines"
-            year="2018" />
+            year="2018" 
+            site="https://www.vogue.com/fashion-shows/spring-2019-menswear/linder/slideshow/collection"/>
           </div>
           <div className="col-md-4">
             <MensUI 
@@ -44,6 +45,7 @@ class Mens extends Component {
             title="Steven Yeun for GQ Magazine"
             lead="Lead: Thom Priano"
             year="2016"
+            site="https://www.gq.com/story/best-tweed-suits-for-fall-steven-yeun-walking-dead"
              />
           </div>
 

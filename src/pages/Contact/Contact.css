@@ -1,0 +1,19 @@
+.container {
+    height: 70vh;
+    width: 110vh;
+    border: 2px solid;
+    position: relative;
+    
+}
+
+form {
+    position: relative;
+    bottom: 50rem;
+    left: 27rem;
+}
+
+p {
+    font-size: .85rem;
+    overflow: hidden;
+}
+

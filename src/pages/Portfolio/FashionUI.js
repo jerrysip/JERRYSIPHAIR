@@ -1,8 +1,11 @@
 import React from "react";
-
 import "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/portfolio.css";
 
+
+
 const Fashion = (props) => {
+  
+  
   return (
     <div className="card text-center shadow">
       <div className="overflow">
@@ -20,10 +23,13 @@ const Fashion = (props) => {
 {props.location}
         </p>
 
-        <a href="#" className="btn btn-outline-dark">
-          More...
+        <a href={props.site} className="btn btn-outline-dark">
+         More...
         </a>
+       
+
       </div>
+
     </div>
   );
 };

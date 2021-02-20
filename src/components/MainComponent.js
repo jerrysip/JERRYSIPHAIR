@@ -15,6 +15,7 @@ import Editorial from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio
 import Header from '/Users/mac/Desktop/jerrysiphair-react/src/components/Navbar.js'
 import HomeComponent from "/Users/mac/Desktop/jerrysiphair-react/src/components/HomeComponent.js";
 
+
 function MainComponent() {
   return (
     <div>

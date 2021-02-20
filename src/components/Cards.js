@@ -34,81 +34,89 @@ class Cards extends Component {
     return (
       <>
         <div className="fashion text-center mt-5 pt-5"></div>
-        <div className="container-fluid d-flex justify-content-center">
+        <div className="container-fluid d-flex justify-content-center px-5 ">
           <div className="row">
-            <div className="col-md-4 ">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img1} 
               title="Valentino S/S 2019" 
               description="Lead: Guido Palau"
-              location="Location: Paris, France" />
+              location="Location: Paris, France"
+              site="https://www.vogue.com/fashion-shows/spring-2019-ready-to-wear/valentino/slideshow/collection" />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img2} 
-              title="Ralph Lauren S/S 2018 " 
+              title="Ralph Lauren 50th Anniversary S/S 2018 " 
               description="Lead: Guido Palau"
-              location="Location: New York City"  />
+              location="Location: New York City" 
+              site="https://www.vogue.com/fashion-shows/fall-2018-ready-to-wear/ralph-lauren/slideshow/collection" />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               
               imgsrc={Img3} 
               title="Miu Miu S/S 2019" 
               description="Lead: Guido Palau"
-              location="Location: Paris, France"  />
+              location="Location: Paris, France" 
+              site="https://www.vogue.com/fashion-shows/spring-2019-ready-to-wear/miu-miu" />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img4} 
-              title="Yeezy Season 4" 
+              title="Yeezy Season " 
               description="Lead: Guido Palau"
-              location="Location: New York City" />
+              location="Location: New York City" 
+              site="https://www.vogue.com/fashion-shows/spring-2017-ready-to-wear/kanye-west-adidas-originals/slideshow/collection"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img5} 
               
               title="Lela Rose S/S 2020" 
               description="Lead: Gio Vaccarro"
-              location="Location: New York City"/>
+              location="Location: New York City"
+              site="https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/lela-rose/slideshow/collection"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img6} 
               title="Leisure Projects S/S 2018" 
               description="Lead: Gong Jira"
-              location="Location: Bangkok, Thailand"/>
+              location="Location: Bangkok, Thailand"
+              site="https://www.leisureprojectsbkk.com/collection/ss17/#campaign"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img7} 
               title="China Day S/S 2019" 
               description="Lead: Shingo"
-              location="Location: New York City"/>
+              location="Location: New York City"
+              site="https://www.nowfashion.com/xu-zhi-spring-summer-2020-shanghai-28640/shots/1393292"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <FashionUI 
               imgsrc={Img9} 
-              title="Ralph Lauren 50th Anniversary" 
+              title="Ralph Lauren S/S 2018" 
               description="Lead: Guido Palau"
-              location="Location: New York City"/>
+              location="Location: New York City"
+              site="https://www.vogue.com/fashion-shows/spring-2018-ready-to-wear/ralph-lauren/slideshow/collection"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img2} 
               title="Rebecca" 
               description="Location: New York City"
               year="Year: 2019"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <VidCard 
               videosrc={vid1} 
               title="Chelsea" 
               description="Location: New York City"
               year="Year: 2019"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               
               imgsrc={img3} 
@@ -116,21 +124,22 @@ class Cards extends Component {
               description="Location: Kingston, New York"
               year="Year: 2019"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img4} 
               title="Allyson" 
               description="Location: New York City"
               year="Year: 2019"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img5} 
               title="Rachel" 
               description="Location: New York City"
-              year="Year: 2018"/>
+              year="Year: 2018"
+              />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img6} 
               
@@ -139,7 +148,7 @@ class Cards extends Component {
               
               year="Year: 2017"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img1} 
               title="More Chelsea" 
@@ -147,7 +156,7 @@ class Cards extends Component {
               year="Year: 2019"/>
             </div>
 
-            <div className="col-md-4 ">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <MensUI 
               imgsrc={men1} 
               title="BJ JEANS 2018" 
@@ -156,53 +165,56 @@ class Cards extends Component {
               year="Year: 2018"
               />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <MensUI
                 imgsrc={men2}
                 title="Leisure Projects 2018 "
                 description="Lead: Gong Jira"
                 location="Location: Bangkok, Thailand"
                 year="Year: 2018"
+                site="https://www.leisureprojectsbkk.com/collection/ss17/#look"
               />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <MensUI 
               imgsrc={men3} 
               title="Linder S/S 2018" 
               description="Lead: Cameron Raines"
               location="Location: New York City"
-              year="Year: 2018"/>
+              year="Year: 2018"
+              site="https://www.vogue.com/fashion-shows/spring-2019-menswear/linder/slideshow/collection"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <MensUI 
               imgsrc={men4} 
               title="Steven Yeun for GQ Magazine" 
               description="Lead: Thom Priano"
               location="Location: New York City"
-              year="Year: 2018"/>
+              year="Year: 2018"
+              site="https://www.gq.com/story/best-tweed-suits-for-fall-steven-yeun-walking-dead"/>
             </div>
-            <div className="col-md-4 ">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <PressUI 
               imgsrc={p1} 
               title="Glamour Magazine" 
               description="Location: New York City"
               year="Year: 2018" />
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <PressUI 
               imgsrc={p2} 
-              title="Harpers Bazar" 
+              title="Harpers Bazaar" 
               description="Location: New York City"
               year="Year: 2019"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <PressUI 
               imgsrc={p3} 
               title="Nylon Magazine" 
               description="Location: New York City"
               year="Year: 2019"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <PressUI 
               imgsrc={p4} 
               title="Thailand News" 
