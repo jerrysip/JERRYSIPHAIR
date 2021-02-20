@@ -14,7 +14,13 @@ import Bridal from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/Br
 import Editorial from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/Editorial.js";
 import Header from '/Users/mac/Desktop/jerrysiphair-react/src/components/Navbar.js'
 import HomeComponent from "/Users/mac/Desktop/jerrysiphair-react/src/components/HomeComponent.js";
-
+import Allyson from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Bridal/Allyson.js'
+import Becky from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Bridal/Becky.js'
+import Carol from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Bridal/Carol.js'
+import Chelsea from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Bridal/Chelsea.js'
+import Corina from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Bridal/Corina.js'
+import Rachel from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Bridal/Rachel.js'
+import BJ from '/Users/mac/Desktop/jerrysiphair-react/src/pages/carousel/Editorial/BJ.js'
 
 function MainComponent() {
   return (
@@ -32,6 +38,15 @@ function MainComponent() {
           <Route exact path="/press" component={Press} />
           <Route exact path="/editorial" component={Editorial} />
           <Route exact path="/home" component={HomeComponent} />
+          <Route exact path="/allyson" component={Allyson} />
+          <Route exact path="/becky" component={Becky} />
+          <Route exact path="/chelsea" component={Chelsea} />
+          <Route exact path="/corina" component={Corina} />
+          <Route exact path="/carol" component={Carol} />
+          <Route exact path="/bj" component={BJ} />
+          <Route exact path="/rachel" component={Rachel} />
+         
+          
           <Redirect to="/home" component={HomeComponent}/>
         </Switch>
       </Router>

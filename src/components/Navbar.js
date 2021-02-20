@@ -18,20 +18,20 @@ function Navbar() {
 
             <ReactBootStrap.Nav.Link to="/portfolio">
               <NavDropdown title="Portfolio" id="nav-dropdown">
-                <NavDropdown.Item eventKey="4.1">
+                <NavDropdown.Item >
                   <Link to="/bridal">Bridal</Link>
                 </NavDropdown.Item>
 
-                <NavDropdown.Item eventKey="4.2">
+                <NavDropdown.Item >
                   <Link to="/editorial">Editorial</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3">
+                <NavDropdown.Item >
                   <Link to="/fashion-week">Fashion Week</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3">
+                <NavDropdown.Item >
                   <Link to="/mens">Mens</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3">
+                <NavDropdown.Item >
                   <Link to="/press">Press</Link>
                 </NavDropdown.Item>
               </NavDropdown>

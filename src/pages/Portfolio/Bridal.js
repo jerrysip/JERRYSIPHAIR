@@ -15,10 +15,10 @@ class Bridal extends Component {
         return (
             <>
              <img src={bridalhero} alt="bridalhero" width="100%" className="bridalhero" />
-             <div className="fashion text-center mt-5 pt-5"></div>
+             <div className="fashion justify-content-center mt-5 pt-5"></div>
             <div className="container-fluid d-flex justify-content-center">
                
-                <div className="row">
+                <div className="row justify-content-center">
 
                     <div className="col-md-4">
                     <Card 

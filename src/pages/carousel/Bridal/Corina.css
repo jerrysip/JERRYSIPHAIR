@@ -1,43 +1,17 @@
-.image1 {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 32%
-}
 
-.image2 {
+.carousel {
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 32%
-}
-
-.image3 {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 18%;
-}
-
-.image4 {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 32%
-}
-
-.image5 {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 30%
-}
-
-.image6 {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 32%
+    height: 800vh;
+    width: 100%;
+    margin: auto;
 }
 
 
+img 
+{
+   max-width: 100%;
+   height: auto;
+   overflow: hidden;
+
+}

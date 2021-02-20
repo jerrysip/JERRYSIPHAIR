@@ -19,3 +19,10 @@
     background: white;
 }
 
+
+
+#nav-dropdown {
+    text-decoration: hidden;
+    background-color: none;
+}
+

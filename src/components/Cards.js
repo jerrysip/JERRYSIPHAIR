@@ -107,14 +107,16 @@ class Cards extends Component {
               imgsrc={img2} 
               title="Rebecca" 
               description="Location: New York City"
-              year="Year: 2019"/>
+              year="Year: 2019"
+              site="/becky"/>
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <VidCard 
               videosrc={vid1} 
               title="Chelsea" 
               description="Location: New York City"
-              year="Year: 2019"/>
+              year="Year: 2019"
+              site="/chelsea"/>
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
@@ -122,14 +124,16 @@ class Cards extends Component {
               imgsrc={img3} 
               title="Corina" 
               description="Location: Kingston, New York"
-              year="Year: 2019"/>
+              year="Year: 2019"
+              site="/corina"/>
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img4} 
               title="Allyson" 
               description="Location: New York City"
-              year="Year: 2019"/>
+              year="Year: 2019"
+              site="/allyson"/>
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
@@ -137,6 +141,7 @@ class Cards extends Component {
               title="Rachel" 
               description="Location: New York City"
               year="Year: 2018"
+              site="/rachel"
               />
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
@@ -146,14 +151,16 @@ class Cards extends Component {
               title="Caroline" 
               description="Location: New York City"
               
-              year="Year: 2017"/>
+              year="Year: 2017"
+              site="/carol"/>
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
               <Card 
               imgsrc={img1} 
               title="More Chelsea" 
               description="Location: New York City"
-              year="Year: 2019"/>
+              year="Year: 2019"
+              site="/chelsea"/>
             </div>
 
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
@@ -163,6 +170,7 @@ class Cards extends Component {
               description="Lead: Gong Jira"
               location="Location: Bangkok, Thailand"
               year="Year: 2018"
+              site="/bj"
               />
             </div>
             <div className="col-sm-6 col-md-4 col-xl-3 pb-3">
