@@ -1,28 +1,23 @@
 .logo {
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-    
+  font-family: "Bebas Neue", cursive;
+  color: black;
 }
 
 .jerry {
-    font-size: 3rem;
-
+  font-size: 3rem;
 }
 
-.contact, .about {
-    position: relative;
-    top: .5rem;
-
+.contact,
+.about {
+  position: relative;
+  top: 0.5rem;
 }
 
 .a {
-    background: white;
+  background: white;
 }
-
-
 
 #nav-dropdown {
-    text-decoration: hidden;
-    background-color: none;
+  text-decoration: hidden;
+  background-color: none;
 }
-

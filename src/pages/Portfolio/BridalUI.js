@@ -16,9 +16,10 @@ const Card = (props) => {
         <p className="card-text text-dark mb-0">
         {props.year}
         </p>
-        <a href="#" className="btn btn-outline-dark">
+        <a href={props.site} className="btn btn-outline-dark">
           More...
         </a>
+
       </div>
     </div>
   );

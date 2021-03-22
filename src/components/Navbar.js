@@ -10,28 +10,27 @@ function Navbar() {
     <div className="text">
       <ReactBootStrap.Navbar collapseOnSelect className="logo" expand="xl">
         <ReactBootStrap.Navbar.Brand href="#home" className="jerry">
-         <Link to='/home'> jerrysipHAIR</Link>
+          <Link to="/home"> jerrysipHAIR</Link>
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="portfolio mr-auto">
-
             <ReactBootStrap.Nav.Link to="/portfolio">
               <NavDropdown title="Portfolio" id="nav-dropdown">
-                <NavDropdown.Item >
+                <NavDropdown.Item>
                   <Link to="/bridal">Bridal</Link>
                 </NavDropdown.Item>
 
-                <NavDropdown.Item >
+                <NavDropdown.Item>
                   <Link to="/editorial">Editorial</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item >
+                <NavDropdown.Item>
                   <Link to="/fashion-week">Fashion Week</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item >
+                <NavDropdown.Item>
                   <Link to="/mens">Mens</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item >
+                <NavDropdown.Item>
                   <Link to="/press">Press</Link>
                 </NavDropdown.Item>
               </NavDropdown>
@@ -45,7 +44,7 @@ function Navbar() {
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
       </ReactBootStrap.Navbar>
-</div>
+    </div>
   );
 }
 

@@ -15,3 +15,8 @@ a:hover {
   text-decoration: none;
 }
 
+.card {
+  border: none;
+  width: 100%;
+}
+

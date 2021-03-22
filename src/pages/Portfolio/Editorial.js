@@ -23,25 +23,31 @@ class Cards extends Component {
               <Card
                 imgsrc={img1}
                 title="Cris Horwang for L'Officiel Magazine"
+                site="/cris"
               />
             </div>
             <div className="col-md-4">
               <Card
                 imgsrc={img2}
                 title="Barneys New York | The Window Magazine"
+                site="/barneys"
               />
             </div>
             <div className="col-md-4">
-              <Card imgsrc={img3} title="P'Volve Fitness" />
+              <Card imgsrc={img3} title="P'Volve Fitness" site="/pvolve" />
             </div>
             <div className="col-md-4">
-              <Card imgsrc={img4} title="Steven Yeun for GQ Magazine" />
+              <Card
+                imgsrc={img4}
+                title="Steven Yeun for GQ Magazine"
+                site="/gq"
+              />
             </div>
             <div className="col-md-4">
-              <Card imgsrc={img5} title="BJ Jeans Bangkok" />
+              <Card imgsrc={img5} title="BJ Jeans Bangkok" site="/bj" />
             </div>
             <div className="col-md-4">
-              <Card imgsrc={img6} title="The Zoe Report" />
+              <Card imgsrc={img6} title="The Zoe Report" site="/zoereport" />
             </div>
           </div>
         </div>

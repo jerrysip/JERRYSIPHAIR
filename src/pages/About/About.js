@@ -5,14 +5,14 @@ import { Container, Row, Col  } from 'react-bootstrap'
 
 function About() {
     return (
-        <Container >
+        <Container className="everything justify-content-center">
             <Row>
         
-        <Col className="overflow-hidden">
+        <Col className="col-12 col-lg-6">
 
         <img className="me" src={me} alt="me" />
       </Col>
-      <Col className="oveflow-hidden">
+      <Col className="col-12 col-lg-6 justify-content-center">
 <div className="content">
     <p>My name is Jerry Siphavong and I am a first generation American hairstylist. Growing up in poverty, my parents always taught me to work hard and dedicate myself to my passion. They taught me to choose a career that made me happy, and I chose hair. For years I worked as a receptionist in salons because I couldn’t afford to go to cosmetology school. An amazing former boss of mine, Julien Farel, offered to pay for my tuition to become a licensed hairstylist. I will be forever grateful for this selfless gift he has given me.  </p>
     <p>Throughout my career I have assisted some of the best hairstylists in the game. Many of those stylists have introduced me to major magazine publications such as Vogue, GQ, etc. From there , I’ve had the honor of working with world renown photographers such as Annie Leibovitz and Nathanial Goldberg. My dreams came true when I started doing shows at New York and Paris Fashion Week with designers such as Miu Miu, Valentino, Ralph Lauren, etc. I even had the chance to travel the world to become an editorial stylist. I’ve been lucky enough to have styled some amazing clients such as Maria Sherapova, Lea Michele, Karlie Kloss, and many more. </p>
