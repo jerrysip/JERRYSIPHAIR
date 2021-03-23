@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import MensUI from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/FashionUI.js";
-import img1 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/Mens/bj1.JPG";
-import img2 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/Mens/leisuregroup.jpg";
-import img3 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/Mens/linder2.jpg";
-import img4 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/Mens/stevenyeun1.JPG";
+import img1 from "../../Images/Mens/bj1.JPG";
+import img2 from "../../Images/Mens/leisuregroup.jpg";
+import img3 from "../../Images/Mens/linder2.jpg";
+import img4 from "../../Images/Mens/stevenyeun1.JPG";
 
 import MensHero from "/Users/mac/Desktop/jerrysiphair-react/src/Images/Mens/linder1.JPG";
 

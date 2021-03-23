@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import VidCard from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/BridalVideoUI.js";
 import Card from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/BridalUI.js";
-import img1 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/chelseabathroom.jpg";
-import img2 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/babyblue.jpg";
-import img3 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/corinasolo.jpg";
-import img4 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/allyson.JPG";
-import img5 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/IMG_7032.jpg";
-import img6 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/IMG_0122.JPG";
+import img1 from "../../Images/bridal/chelseabathroom.jpg";
+import img2 from "../../Images/bridal/babyblue.jpg";
+import img3 from "../../Images/bridal/corinasolo.jpg";
+import img4 from "../../Images/bridal/allyson.JPG";
+import img5 from "../../Images/bridal/IMG_7032.jpg";
+import img6 from "../../Images/bridal/IMG_0122.JPG";
 import vid1 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/chelseavideo.mp4";
 import bridalhero from "/Users/mac/Desktop/jerrysiphair-react/src/Images/bridal/bridalhero.jpg";
+
 class Bridal extends Component {
   render() {
     return (

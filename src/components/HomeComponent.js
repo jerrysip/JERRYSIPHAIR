@@ -1,15 +1,14 @@
 import React from "react";
 
-import Hero from "/Users/mac/Desktop/jerrysiphair-react/src/pages/hero/Hero.js";
+import Hero from "../pages/hero/Hero";
 
-import Cards from '/Users/mac/Desktop/jerrysiphair-react/src/components/Cards.js'
+import Cards from "../components/Cards";
 
 function HomeComponent() {
   return (
     <div>
-     
       <Hero />
-<Cards />
+      <Cards />
     </div>
   );
 }

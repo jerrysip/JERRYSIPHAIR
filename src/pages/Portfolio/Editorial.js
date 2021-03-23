@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Card from "/Users/mac/Desktop/jerrysiphair-react/src/pages/Portfolio/EditorialUI.js";
 
-import img1 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/IMG_E1001.jpeg";
-import img2 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/purp.JPG";
-import img3 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/pvolve3.jpg";
-import img4 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/IMG_0068.JPG";
-import img5 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/IMG_2862.JPG";
-import img6 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/seemanagement-125152-q80-h750-rz3-b125.jpg";
-import video1 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/IMG_5348.mp4";
+import img1 from "../../Images/editorial/IMG_E1001.jpeg";
+import img2 from "../../Images/editorial/purp.JPG";
+import img3 from "../../Images/editorial/pvolve3.jpg";
+import img4 from "../../Images/editorial/IMG_0068.JPG";
+import img5 from "../../Images/editorial/IMG_2862.JPG";
+import img6 from "../../Images/editorial/seemanagement-125152-q80-h750-rz3-b125.jpg";
+import video1 from "../../Images/editorial/IMG_5348.mp4";
 
 class Cards extends Component {
   render() {

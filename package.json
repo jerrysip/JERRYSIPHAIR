@@ -1,6 +1,6 @@
 {
   "name": "jerrysiphair-react",
-  "homepage": "http://www.jerrysiphair.com",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -8,8 +8,8 @@ import {
   Modal,
   Button,
 } from "react-bootstrap";
-import img1 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/pvolve1.JPG";
-import img2 from "/Users/mac/Desktop/jerrysiphair-react/src/Images/editorial/pvolve2.jpg";
+import img1 from "../../../Images/editorial/pvolve1.JPG";
+import img2 from "../../../Images/editorial/pvolve2.jpg";
 
 function Pvolve() {
   return (

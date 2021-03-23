@@ -10,16 +10,11 @@ const Card = (props) => {
       </div>
       <div className="card-body text-dark">
         <h4 className="card-title">{props.title}</h4>
-        <p className="card-text text-dark mb-0">
-        {props.description}
-        </p>
-        <p className="card-text text-dark mb-0">
-        {props.year}
-        </p>
+        <p className="card-text text-dark mb-0">{props.description}</p>
+        <p className="card-text text-dark mb-0">{props.year}</p>
         <a href={props.site} className="btn btn-outline-dark">
           More...
         </a>
-
       </div>
     </div>
   );
